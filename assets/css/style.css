@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* assets/css/main.css or your global CSS file */
+[dir="rtl"] {
+    direction: rtl;
+    /* Additional styling for RTL layouts */
+}
+
+[dir="ltr"] {
+    direction: ltr;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px; /* Set width of the scrollbar */
+    height: 8px; /* Set height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #A80E0E; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the thumb on hover */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 6px; /* Rounded corners for the track */
+}
